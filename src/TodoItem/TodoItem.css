@@ -1,5 +1,5 @@
 .TodoItem {
-    background-color: #FAFAFA;
+    background-color: #f5d8d8;
     position: relative;
     display: flex;
     border-radius: 8px;
@@ -35,7 +35,13 @@
 
 .Icon-check {
     position: absolute;
+    width: 24px;
+    height: 24px;
     left: 12px;
+    background-image: url(/public/check-tick-icon-14150.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Icon-check--active {
@@ -44,11 +50,17 @@
 
 .Icon-delete {
     position: absolute;
-    top: -22px;
-    right: -12px;
+    width: 24px;
+    height: 24px;
+    top: -12px;
+    right: -8px;
     transform: rotate(0);
     transition: .5s ease;
-
+    background-image: url(/public/298889_x_icon.png);
+    color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Icon-delete:hover {
