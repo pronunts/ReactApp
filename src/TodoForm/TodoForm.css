@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: auto;
+
+    padding: 5px;
+    border-radius: 9px;
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+
+}
+
+.container_Button {
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+textarea {
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    padding: 15px 0 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    border: 1px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 3px 7px rgba(115, 162, 216, 0.582);
+    font-size: 1rem;
+    font-weight: 500;
+}
