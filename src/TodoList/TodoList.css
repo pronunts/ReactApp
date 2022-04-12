@@ -1,5 +1,14 @@
 ul {
-    margin: 0;
-    padding: 0 0 56px 0;
-    list-style: none;
+  margin: 24px auto;
+  height: 400px;
+  width: 90%;
+  border-radius: 12px;
+  padding: 0 0 56px 0;
+  list-style: none;
+  overflow: scroll;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y proximity;
+}
+ul::-webkit-scrollbar {
+  display: none;
 }

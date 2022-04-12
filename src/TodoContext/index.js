@@ -1,75 +1,77 @@
-import React from 'react';
-import { useLocalStorage } from './useLocalStorage';
+import React from "react";
+import { useLocalStorage } from "./useLocalStorage";
 
-const TodoContext = React.createContext()
+const TodoContext = React.createContext();
 
-function TodoProvider(props){
-    const [todos, saveTodos] = useLocalStorage('TODOS_V1', []);
-    const [openModal, setOpenModal] = React.useState(false);
+function TodoProvider(props) {
+  const [todos, saveTodos] = useLocalStorage("TODOS_V1", []);
+  const [openModal, setOpenModal] = React.useState(false);
+  const [openModalInformation, setOpenModalInformation] = React.useState(false);
 
-    const completedTodos = todos.filter(todo => todo.completed).length;
-    const totalTodos = todos.length;
+  const completedTodos = todos.filter((todo) => todo.completed).length;
+  const totalTodos = todos.length;
 
-    const [searchValue, setSearchValue] = React.useState('');
+  const [searchValue, setSearchValue] = React.useState("");
 
-    let searchedTodos= [];
+  let searchedTodos = [];
 
-    if(!searchValue.length >= 1){
-        searchedTodos = todos;
-    } else{
-        searchedTodos = todos.filter(todofiltered =>{
-            const todoText = todofiltered.text.toLowerCase();
-            const todoSearchValue = searchValue.toLowerCase();
-            return todoText.includes(todoSearchValue)
-        })
-    }
+  if (!searchValue.length >= 1) {
+    searchedTodos = todos;
+  } else {
+    searchedTodos = todos.filter((todofiltered) => {
+      const todoText = todofiltered.title.toLowerCase();
+      const todoSearchValue = searchValue.toLowerCase();
+      return todoText.includes(todoSearchValue);
+    });
+  }
 
+  const completeTodo = (title) => {
+    const indexText = todos.findIndex((todo) => todo.title === title);
+    const newTodosArray = [...todos];
+    newTodosArray[indexText].completed = true;
+    saveTodos(newTodosArray);
+  };
+  const deleteTodo = (title) => {
+    const indexText = todos.findIndex((todo) => todo.title === title);
+    const newTodosArray = [...todos];
+    newTodosArray.splice(indexText, 1);
 
-    const completeTodo = (text) =>{
-        const indexText = todos.findIndex((todo) => todo.text === text);
-        const newTodosArray = [...todos];
-        newTodosArray[indexText].completed= true;
-        saveTodos(newTodosArray);
-    }
-    const deleteTodo= (text)=>{
-        const indexText = todos.findIndex((todo) => todo.text === text);
-        const newTodosArray = [...todos];
-        newTodosArray.splice(indexText, 1);
-        
-        saveTodos(newTodosArray);
-    }
-    const addTodo= (text) =>{
-        const newTodos = [...todos];
-        newTodos.push({
-            complete:false,
-            text
+    saveTodos(newTodosArray);
+  };
+  const addTodo = (title, description) => {
+    const newTodos = [...todos];
+    newTodos.push({
+      complete: false,
+      title,
+      description,
     });
     saveTodos(newTodos);
-};
+  };
 
-            return(
-                <React.Fragment>
-
-                <TodoContext.Provider value={{
-                    totalTodos,
-                    completedTodos,
-                    searchValue,
-                    setSearchValue ,
-                    searchedTodos,
-                    completeTodo,
-                    deleteTodo,
-                    addTodo,
-                    saveTodos,
-                    openModal,
-                    setOpenModal,
-                }}>
-                    {props.children}
-                </TodoContext.Provider>
-
-
-                </React.Fragment>
-            );
+  return (
+    <React.Fragment>
+      <TodoContext.Provider
+        value={{
+          totalTodos,
+          completedTodos,
+          searchValue,
+          setSearchValue,
+          searchedTodos,
+          completeTodo,
+          deleteTodo,
+          addTodo,
+          saveTodos,
+          openModal,
+          setOpenModal,
+          openModalInformation,
+          setOpenModalInformation,
+        }}
+      >
+        {props.children}
+      </TodoContext.Provider>
+    </React.Fragment>
+  );
 }
-<TodoContext.Consumer></TodoContext.Consumer>
+<TodoContext.Consumer></TodoContext.Consumer>;
 
-export{TodoContext, TodoProvider}
+export { TodoContext, TodoProvider };
