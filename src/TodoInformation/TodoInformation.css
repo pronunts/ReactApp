@@ -1,0 +1,46 @@
+.info-container {
+  width: 90%;
+  height: 50%;
+  position: relative;
+  background-color: #f09ee5aa;
+  color: rgb(243, 243, 243);
+  border-radius: 4px;
+  padding: 4px 14px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 8px 0;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+
+.exit-modal {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 0;
+  width: 28px;
+  height: 28px;
+  transform: rotate(0);
+  transition: 0.5s ease-in-out;
+  background-image: url(/public/298889_x_icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exit-modal:hover {
+  transform: rotate(360deg);
+  transition: 0.4s ease-in-out;
+}

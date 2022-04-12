@@ -1,0 +1,483 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "e:\\Documentos\\Visual Studio Code\\reactcurso",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-04-08 18:09:23",
+            "filesum": 66,
+            "codesum": 29496,
+            "commentsum": 71,
+            "blanksum": 214,
+            "statistics": {
+                ".js": {
+                    "code": 325,
+                    "comment": 25,
+                    "blank": 48
+                },
+                ".css": {
+                    "code": 286,
+                    "comment": 2,
+                    "blank": 38
+                },
+                ".json": {
+                    "code": 27627,
+                    "comment": 0,
+                    "blank": 6
+                },
+                ".md": {
+                    "code": 21,
+                    "comment": 4,
+                    "blank": 15
+                },
+                "": {
+                    "code": 18,
+                    "comment": 1,
+                    "blank": 5
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 39,
+                    "blank": 4
+                },
+                ".html": {
+                    "code": 23,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".pp3": {
+                    "code": 1188,
+                    "comment": 0,
+                    "blank": 96
+                },
+                ".map": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": "build\\165ea1fd36de790d7fd64b5a1fd8e5bb.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\298889_x_icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 48,
+                    "code": 594,
+                    "comment": 0,
+                    "filename": "build\\298889_x_icon.png.pp3"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "build\\asset-manifest.json"
+                },
+                {
+                    "filename": "build\\check-tick-icon-14150 (1).png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\check-tick-icon-14150.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\giphy.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\index.html"
+                },
+                {
+                    "filename": "build\\lofi.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "build\\robots.txt"
+                },
+                {
+                    "filename": "build\\Social.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "build\\static\\css\\main.9bdc1281.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\css\\main.9bdc1281.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "build\\static\\js\\main.95ba3332.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 0,
+                    "comment": 37,
+                    "filename": "build\\static\\js\\main.95ba3332.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\main.95ba3332.js.map"
+                },
+                {
+                    "filename": "build\\static\\media\\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.efbc42eceb67fee85e59.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 27523,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public\\165ea1fd36de790d7fd64b5a1fd8e5bb.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\298889_x_icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 48,
+                    "code": 594,
+                    "comment": 0,
+                    "filename": "public\\298889_x_icon.png.pp3"
+                },
+                {
+                    "filename": "public\\check-tick-icon-14150 (1).png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\check-tick-icon-14150.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\giphy.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "filename": "public\\lofi.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "filename": "public\\Social.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 7,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "src\\App\\App.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "src\\App\\AppUI.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 11,
+                    "comment": 18,
+                    "filename": "src\\App\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src\\CreateTodoButton\\CreateTodoButton.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\CreateTodoButton\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src\\Modal\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\Modal\\modal.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\ModalInfo\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\ModalInfo\\ModalInfo.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "src\\TodoContext\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "src\\TodoContext\\useLocalStorage.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\TodoCounter\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\TodoCounter\\TodoCounter.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 52,
+                    "comment": 4,
+                    "filename": "src\\TodoForm\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src\\TodoForm\\TodoForm.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\TodoInformation\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "src\\TodoInformation\\TodoInformation.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\TodoItem\\index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "src\\TodoItem\\TodoItem.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\TodoList\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\TodoList\\TodoList.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\TodoSearch\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src\\TodoSearch\\TodoSearch.css"
+                }
+            ]
+        }
+    ]
+}
