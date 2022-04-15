@@ -19,6 +19,9 @@ function AppUI() {
     setOpenModal,
     openModalInformation,
     setOpenModalInformation,
+    selectTodo,
+    todo,
+    selectItem,
   } = React.useContext(TodoContext);
 
   return (
@@ -34,6 +37,7 @@ function AppUI() {
             completed={todos.completed}
             onComplete={() => completeTodo(todos.title)}
             onDelete={() => deleteTodo(todos.title)}
+            onSelectItem={() => selectItem(todos.title)}
             setOpenModalInformation={setOpenModalInformation}
           />
         ))}
@@ -46,8 +50,9 @@ function AppUI() {
       {!!openModalInformation && (
         <ModalInfo>
           <TodoInformation
-            title={searchedTodos[1].title}
-            description={searchedTodos[1].description}
+            key={todo[selectTodo].title}
+            title={todo[selectTodo].title}
+            description={todo[selectTodo].description}
             setOpenModalInformation={setOpenModalInformation}
           />
         </ModalInfo>

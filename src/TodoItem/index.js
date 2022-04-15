@@ -2,8 +2,9 @@ import React from "react";
 import "./TodoItem.css";
 
 function TodoItem(props) {
-  const onClickButtonInfo = () => {
+  const onClickButtonInfo = (callback) => {
     props.setOpenModalInformation((prevState) => !prevState);
+    props.onSelectItem(props.title);
   };
   return (
     <li className="TodoItem">

@@ -7,6 +7,7 @@ function TodoProvider(props) {
   const [todos, saveTodos] = useLocalStorage("TODOS_V1", []);
   const [openModal, setOpenModal] = React.useState(false);
   const [openModalInformation, setOpenModalInformation] = React.useState(false);
+  let [selectTodo, setSelectTodo] = React.useState(0);
 
   const completedTodos = todos.filter((todo) => todo.completed).length;
   const totalTodos = todos.length;
@@ -24,6 +25,11 @@ function TodoProvider(props) {
       return todoText.includes(todoSearchValue);
     });
   }
+  let todo = [...todos];
+  const selectItem = (title) => {
+    const indexItem = todos.findIndex((todo) => todo.title === title);
+    setSelectTodo(indexItem);
+  };
 
   const completeTodo = (title) => {
     const indexText = todos.findIndex((todo) => todo.title === title);
@@ -65,6 +71,10 @@ function TodoProvider(props) {
           setOpenModal,
           openModalInformation,
           setOpenModalInformation,
+          selectTodo,
+          setSelectTodo,
+          selectItem,
+          todo,
         }}
       >
         {props.children}
