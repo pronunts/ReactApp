@@ -8,7 +8,13 @@ function TodoInformation(props) {
   return (
     <div className="info-container">
       <h2 className="title">Title: {props.title}</h2>
-      <p className="description">Description: {props.description}</p>
+      <p className="date">Date: 23/23/23 </p>
+
+      <div className="description_container">
+        <p className="description">Description: </p>
+        <p className="text_description">{props.description}</p>
+      </div>
+
       <span className="exit-modal" onClick={onClickButtonInfo}></span>
     </div>
   );

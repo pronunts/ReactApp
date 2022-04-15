@@ -1,7 +1,6 @@
 import React from "react";
 import { TodoContext } from "../TodoContext";
 import "./TodoForm.css";
-import image from "./giphy.gif";
 
 function TodoForm() {
   const [descriptionValue, setDescriptionValue] = React.useState("");
@@ -56,7 +55,6 @@ function TodoForm() {
           Add
         </button>
       </div>
-      <img src={image} className="image-decoration"></img>
     </form>
   );
 }

@@ -89,3 +89,95 @@ src\TodoList\TodoList.css, code is 5, comment is 0, blank is 0.
 src\TodoSearch\index.js, code is 19, comment is 0, blank is 2.
 src\TodoSearch\TodoSearch.css, code is 21, comment is 0, blank is 3.
 ===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-04-14 22:16:29
+count workspace : e:\Documentos\Visual Studio Code\reactcurso
+total files : 67
+total code lines : 29591
+total comment lines : 74
+total blank lines : 204
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|            354|              3|             28|    1.2|
+   |            .js|            352|             27|             48|    1.2|
+   |          .json|          27627|              0|              6|     93|
+   |            .md|             21|              4|             15|  0.071|
+   |           .pp3|           1188|              0|             96|    4.0|
+   |           .txt|              6|             39|              4|  0.020|
+   |               |             18|              1|              5|  0.061|
+   |           .map|              2|              0|              0| 0.0068|
+   |          .html|             23|              0|              2|  0.078|
+   -------------------------------------------------------------------------
+.gitignore, code is 18, comment is 1, blank is 5.
+build\165ea1fd36de790d7fd64b5a1fd8e5bb.gif, it is a binary file.
+build\298889_x_icon.png, it is a binary file.
+build\298889_x_icon.png.pp3, code is 594, comment is 0, blank is 48.
+build\asset-manifest.json, code is 13, comment is 0, blank is 1.
+build\check-tick-icon-14150 (1).png, it is a binary file.
+build\check-tick-icon-14150.png, it is a binary file.
+build\favicon.ico, it is a binary file.
+build\giphy.gif, it is a binary file.
+build\index.html, code is 1, comment is 0, blank is 0.
+build\lofi.gif, it is a binary file.
+build\logo192.png, it is a binary file.
+build\logo512.png, it is a binary file.
+build\manifest.json, code is 25, comment is 0, blank is 0.
+build\robots.txt, code is 3, comment is 1, blank is 0.
+build\Social.png, it is a binary file.
+build\static\css\main.9bdc1281.css, code is 1, comment is 2, blank is 0.
+build\static\css\main.9bdc1281.css.map, code is 1, comment is 0, blank is 0.
+build\static\js\main.95ba3332.js, code is 1, comment is 2, blank is 0.
+build\static\js\main.95ba3332.js.LICENSE.txt, code is 0, comment is 37, blank is 4.
+build\static\js\main.95ba3332.js.map, code is 1, comment is 0, blank is 0.
+build\static\media\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.efbc42eceb67fee85e59.jpg, it is a binary file.
+build\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.jpg, it is a binary file.
+package-lock.json, code is 27523, comment is 0, blank is 2.
+package.json, code is 41, comment is 0, blank is 3.
+public\165ea1fd36de790d7fd64b5a1fd8e5bb.gif, it is a binary file.
+public\298889_x_icon.png, it is a binary file.
+public\298889_x_icon.png.pp3, code is 594, comment is 0, blank is 48.
+public\check-tick-icon-14150 (1).png, it is a binary file.
+public\check-tick-icon-14150.png, it is a binary file.
+public\favicon.ico, it is a binary file.
+public\giphy.gif, it is a binary file.
+public\index.html, code is 22, comment is 0, blank is 2.
+public\lofi.gif, it is a binary file.
+public\logo192.png, it is a binary file.
+public\logo512.png, it is a binary file.
+public\manifest.json, code is 25, comment is 0, blank is 0.
+public\robots.txt, code is 3, comment is 1, blank is 0.
+public\Social.png, it is a binary file.
+public\tumblr_ca6392f4985bcf85661b18532ab86b9e_b27bf040_1280.jpg, it is a binary file.
+README.md, code is 21, comment is 4, blank is 15.
+src\App\App.css, code is 33, comment is 0, blank is 7.
+src\App\AppUI.js, code is 61, comment is 0, blank is 4.
+src\App\index.js, code is 11, comment is 18, blank is 4.
+src\CreateTodoButton\CreateTodoButton.css, code is 24, comment is 0, blank is 1.
+src\CreateTodoButton\index.js, code is 9, comment is 0, blank is 1.
+src\index.css, code is 20, comment is 0, blank is 2.
+src\index.js, code is 9, comment is 0, blank is 3.
+src\Modal\index.js, code is 14, comment is 0, blank is 2.
+src\Modal\modal.css, code is 12, comment is 0, blank is 1.
+src\ModalInfo\index.js, code is 12, comment is 0, blank is 2.
+src\ModalInfo\ModalInfo.css, code is 13, comment is 0, blank is 0.
+src\TodoContext\index.js, code is 77, comment is 0, blank is 10.
+src\TodoContext\useLocalStorage.js, code is 23, comment is 1, blank is 6.
+src\TodoCounter\index.js, code is 14, comment is 0, blank is 1.
+src\TodoCounter\TodoCounter.css, code is 9, comment is 0, blank is 0.
+src\TodoForm\giphy.gif, it is a binary file.
+src\TodoForm\index.js, code is 49, comment is 6, blank is 9.
+src\TodoForm\TodoForm.css, code is 83, comment is 1, blank is 4.
+src\TodoInformation\index.js, code is 19, comment is 0, blank is 3.
+src\TodoInformation\TodoInformation.css, code is 60, comment is 0, blank is 2.
+src\TodoItem\index.js, code is 24, comment is 0, blank is 1.
+src\TodoItem\TodoItem.css, code is 64, comment is 0, blank is 8.
+src\TodoList\index.js, code is 10, comment is 0, blank is 1.
+src\TodoList\TodoList.css, code is 14, comment is 0, blank is 0.
+src\TodoSearch\index.js, code is 19, comment is 0, blank is 1.
+src\TodoSearch\TodoSearch.css, code is 21, comment is 0, blank is 3.
+===============================================================================
