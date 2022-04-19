@@ -6,8 +6,7 @@ ul {
   padding: 0 0 56px 0;
   list-style: none;
   overflow: scroll;
-  overscroll-behavior-y: contain;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 ul::-webkit-scrollbar {
   display: none;
