@@ -1,8 +1,7 @@
 .todoCounter {
   text-align: center;
-  margin: 0;
   font-size: 34px;
-  padding: 0 48px 24px;
+  padding: 16px 48px 24px;
   background: -webkit-linear-gradient(rgb(248, 142, 142), rgb(233, 95, 95));
   background-clip: text;
   -webkit-text-fill-color: transparent;

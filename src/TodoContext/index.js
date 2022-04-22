@@ -34,7 +34,13 @@ function TodoProvider(props) {
   const completeTodo = (title) => {
     const indexText = todos.findIndex((todo) => todo.title === title);
     const newTodosArray = [...todos];
-    newTodosArray[indexText].completed = true;
+    let state = newTodosArray[indexText].completed;
+    if (state === true) {
+      state = false;
+    } else {
+      state = true;
+    }
+    newTodosArray[indexText].completed = state;
     saveTodos(newTodosArray);
   };
   const deleteTodo = (title) => {

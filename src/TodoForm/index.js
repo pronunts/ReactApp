@@ -18,9 +18,9 @@ function TodoForm() {
   };
 
   //*Cancelar el envio del formulario (cerrar el modal)
-  const onCancel = () => {
+  /*  const onCancel = () => {
     setOpenModal(false);
-  };
+  }; */
 
   //*La accion de esta funcion consite en enviar el formulario y recargar la pagina
   const onSubmit = (event) => {
