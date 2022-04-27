@@ -2,7 +2,7 @@ import React from "react";
 import "./TodoItem.css";
 
 function TodoItem(props) {
-  const onClickButtonInfo = (callback) => {
+  const onClickButtonInfo = () => {
     props.setOpenModalInformation((prevState) => !prevState);
     props.onSelectItem(props.title);
   };
